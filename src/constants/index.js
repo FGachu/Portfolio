@@ -1,28 +1,30 @@
-import {
-  mobile,
-  backend,
-  creator,
-  web,
+import {  
+  backend,  
+
   javascript,
-  typescript,
   html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  solidworks,
+  fusion,
+  rocket, 
+  python, 
+  cpp,
+  autocad,
   threejs,
+  reactjs,
+
+  flask1,
+  flask2,
+  nakujalogo,
+  modelling,
+
+  aerospacee,
+  website,
+  cad,
+  ministry,
+  nakuja,
+  myself,
 } from "../assets";
 
 export const navLinks = [
@@ -43,19 +45,19 @@ export const navLinks = [
 const services = [
   {
     title: "Web Developer",
-    icon: web,
+    icon: website,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Aerospace Engineer",
+    icon: aerospacee,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "CAD designer",
+    icon: cad,
   },
 ];
 
@@ -73,98 +75,82 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Solidworks",
+    icon: solidworks,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "cpp",
+    icon: cpp,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "autocad",
+    icon: autocad,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "fusion",
+    icon: fusion,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "rocket",
+    icon: rocket,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "python",
+    icon: python,
   },
-  {
-    name: "Three JS",
+  {name: "threejs",
     icon: threejs,
+  },{
+    name: "reactjs",
+    icon: reactjs,
   },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+ 
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Airframe Lead Engineer",
+    company_name: "Nakuja Project",
+    icon: nakuja,
+    iconBg: "#e8fafc",
+    date: "Jan 2023 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed an advanced rocket system.",
+      "Exported simulation data from flow simulations in Solidworks and Open Rocket to Excel for analysis and implementing optimization techniques.",
+      "Intergrated data to enhance design analysis and decision-making.",
+      "Collaborated effectively within a team environment to achieve project goals.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    title: "Intern",
+    company_name: "Aircraft Accident Investigation Department, Ministry of transport",
+    icon: ministry,
+    iconBg: "#180100",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed impeccable investigative and team-building skills during an enriching internship at the Ministry of Roads and Transport.",
+      "Gained invaluable insights into the dynamic aviation industry, making learning engaging and practical.",
+      "Actively contributed to real-world investigations, honing problem-solving abilities to perfection.",
+      "A standout collaborator, leaving a lasting impression on every project undertaken.",
     ],
   },
+ 
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "CAD Modelling ",
+    company_name: "Projects",
+    icon: myself,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2022  - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed a 3U CubeSat as part of my coursework. The CubeSat was to operate in Low Earth Orbit for urban development observation.",
+      "Designed and developed an ornithopter for my final year project. I simulated the flapping in SolidWorks motion to optimize the craft's performance.",
+      "Designed a 3D prototype of a Boeing 747-200.",
+      "Designed a model of a Bell 206L4-Floatkit.",
+      "Implemented data persistence and retrieval functionalities using SQLite database.", 
     ],
   },
 ];
@@ -172,7 +158,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ex at nisi consectetur egestas ac in est.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +166,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ex at nisi consectetur egestas ac in est.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +174,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae ex at nisi consectetur egestas ac in est.",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -196,60 +182,64 @@ const testimonials = [
   },
 ];
 
+
 const projects = [
+
   {
-    name: "Car Rent",
+    name: "Cad modelling",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
+      "My CAD modeling skills are versatile and impactful. I conceptualized and designed a 3U CubeSat for urban development observation, demonstrating a grasp of Low Earth Orbit operations. In my final year project, I engineered an ornithopter, refining its performance through SolidWorks motion simulation of flapping mechanisms. Additionally, I crafted a precise 3D prototype of a Boeing 747-200 and meticulously designed a model of a Bell 206L4-Floatkit",
+      tags: [
       {
-        name: "react",
+        name: "Fusion 360",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Solidworks",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Autocad",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
       {
-        name: "react",
+        name: "Ansys",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: modelling,
+    //add link to cad files
+    source_code_link: "/",
+  },
+  
+  {
+    name: "Nakuja",
+    description:
+      "In the Airframe team, I designed, developed and simulated rocket performance with solidworks, ansys and open rocket, thus enabling me fine tune the aluminium and fiberglass rockets.",
+      tags: [
+      {
+        name: "OpenRocket",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Solidworks",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: nakujalogo,
+    source_code_link: "https://nakujaproject.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Note taking web app",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
+      "I created a Flask-based web app for managing notes, featuring user-friendly interfaces through HTML/CSS integration. The app supports adding and deleting notes, employing Flask-Login and SQLAlchemy for robust user authentication, authorization, and database operations.",
+      tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "python",
         color: "green-text-gradient",
       },
       {
@@ -257,8 +247,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: flask1,
+    source_code_link: "https://github.com/FGachu/Flask-App",
   },
 ];
 
